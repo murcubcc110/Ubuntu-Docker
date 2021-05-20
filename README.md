@@ -53,5 +53,5 @@
     ```
 2. Docker再起動
     ```sh
-    $ systmctl restart docker
+    $ systemctl restart docker
     ```
