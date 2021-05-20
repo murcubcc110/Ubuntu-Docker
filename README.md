@@ -51,7 +51,12 @@
     ```sh
     $ sudo usermod -a -G docker $USER
     ```
-2. Docker再起動
+2. 再起動
     ```sh
-    $ systemctl restart docker
+    $ sudo reboot
     ```
+3. 「hello-world」で動作確認
+    ```sh
+    $ sudo docker run hello-world
+    ```
+
