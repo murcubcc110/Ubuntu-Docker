@@ -41,12 +41,17 @@
     ```sh
     $ sudo docker version
     ```
-9. aa
-10. 
-    
-    
-    
-    
-    
+9. 「hello-world」で動作確認
+    ```sh
+    $ sudo docker run hello-world
+    ```
 
-
+## ユーザーでDockerを起動したい場合
+1. dockerグループにユーザーを入れる
+    ```sh
+    $ sudo usermod -a -G docker $USER
+    ```
+2. Docker再起動
+    ```sh
+    $ systmctl restart docker
+    ```
