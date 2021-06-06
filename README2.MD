@@ -13,4 +13,6 @@ sudo pip install jupyter
 
 sudo pip install jupyterlab
 
+jupyter lab --allow-root -LabApp.token='' --ip=0.0.0.0 --no-browser
+
 ```
